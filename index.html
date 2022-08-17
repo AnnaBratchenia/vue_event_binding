@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Rubik:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Vue event binding</title>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <h2 class="event">Events</h2>
+        <div class="event_practice">Event practice</div>
+        <button class="btn" v-on:click="showAlert">Show Alert</button>
+        <input class="nameValue" type="text" v-on:keydown="showNameKeydown" />
+        <p class="myName">Your name {{name}}</p>
+        <input
+          class="nameValue"
+          type="text"
+          v-on:keydown="showNameKeydown"
+          v-on:keyup.enter="showNameEnter"
+        />
+        <p class="myName">Your name {{confirmedName}}</p>
+      </div>
+    </section>
+    <script src="https://unpkg.com/vue@3"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

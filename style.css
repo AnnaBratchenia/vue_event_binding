@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 600px;
+  height: auto;
+  border: 2px solid rgba(0, 0, 0, 0.171);
+  margin: 0 auto;
+  margin-top: 50px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+.event {
+  background-color: #078050;
+  color: white;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 20px 30px;
+  padding: 15px 0;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+.event_practice {
+  color: #078050;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+  margin: 20px 30px;
+  padding: 15px;
+}
+.btn {
+  width: 200px;
+  background-color: #ff0080;
+  color: white;
+  font-size: 25px;
+  margin: 20px auto;
+  padding: 15px;
+  border: none;
+}
+.nameValue {
+  width: 200px;
+  margin: 20px auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+}
+.myName {
+  background-color: #9cccb9;
+  color: black;
+  margin: 20px 30px;
+  padding: 15px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  border-radius: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
